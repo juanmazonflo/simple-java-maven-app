@@ -19,7 +19,7 @@ job('Java Maven App DSL 3') {
           goals('test')
         }
         shell('''
-          echo "Entregaa: Desplegando la aplicación" 
+          echo "Entrega: Desplegando la aplicación" 
           java -jar "/var/jenkins_home/workspace/Java Maven App DSL 3/target/my-app-1.0-SNAPSHOT.jar"
         ''')  
     }
